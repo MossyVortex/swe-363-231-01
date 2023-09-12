@@ -1,0 +1,25 @@
+body {
+	background: #17141F;
+	color: #F2F2F2;
+	
+}
+
+.hob3{
+	color: black;
+	}
+	
+.td{
+	width: 100px;
+	text-align: center;
+	border: 0px solid white;
+	padding: 0px;
+}
+
+.td2{
+	text-align: center;
+}
+
+
+a:visited {
+	color:#ED7117
+}

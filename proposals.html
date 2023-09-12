@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Proposals</title>
+<a href="index.html"><h3>Home</h3> </a>
+<header><h1>Make a proposal!</h1></header>
+
+</head>
+
+<body>
+<form action="thanks.html" autocomplete="on">
+	<section>
+	<label for="fname">First name:</label>
+	<input type= "text" placeholder="e.g. Faris" name="fname" id="fname" required><br>
+	<br>
+	</section>
+	
+	<section>
+	<label for="lname">Last name:</label>
+	<input type= "text" placeholder="e.g. Alghamdi" name="lname" id="lname" required><br>
+	<br>
+	</section>
+	
+	<section>
+	<label for="suggestion">Your suggestion:</label>
+	<input type= "text" placeholder="write your suggestion in 250 words" name="suggestion" id="suggestion" maxlength="250" autocomplete="off" required><br>
+	<br>
+	</section>
+	
+	<section>
+	<label for="email">Email: </label>
+	<input type= "email" placeholder="youremail@email.com" name="email" id="email" required><br>
+	<br>
+	</section>
+	
+	<section>
+	
+		<label for="title">Title:</label>
+		
+		<label for="Mr.">Mr.</label>
+		<input type="radio" name="title" id="Mr." value="Mr." checked>
+		
+		<label for="Mrs.">Mrs.</label>
+		<input type="radio" name="title" id="Mrs." value="Mrs.">
+		
+		<label for="PhD.">PhD.</label>
+		<input type="radio" name="title" id="PhD." value="PhD.">
+		
+		<br><br>
+	
+	</section>
+	
+	<section>
+		<label for="priority">Priority:</label>
+		<input list="priority" name="priort">
+		<datalist id="priority">
+			<option value="urgent">
+			<option value="high">
+			<option value="medium">
+			<option value="low">
+		</datalist>
+		
+		<br><br>
+	</section>
+	
+	<section>
+		<label for="updates">Send me updates about the suggestion</label>
+		<input type="checkbox" value="yes" id="updates" name="updates">
+		
+		<br><br>
+	</section>
+	
+	<section>
+	<input type= "submit">
+	<br>
+	</section>
+	
+	
+</form>
+
+	<br>
+	<hr>
+	<footer>
+		this is the end of the page. Navigate to the top to discover more
+
+		<table>
+
+			<tr>
+				<td class="td"><a href="about.html"><h3>About</h3> </a></td>
+				<td class="td"><a href="contacts.html"><h3>Contacts</h3> </a></td>
+				<td class="td"><a href="proposals.html"><h3>Proposals</h3> </a></td>
+			</tr>
+			
+			<tr>
+				<td class="td2"><h5>phone: 056xxxxxxx</h5></td>
+			</tr>
+			
+			<tr>
+				<td class="td2"><h5>email: placeholderemail@gmail.com</h5></td>
+			</tr>
+				
+			<tr>
+				<td class="td2"><h5>2023-2024 all rights reserved</h5></td>
+			</tr>
+			
+		</table>
+
+	</footer>
+</body>
+
+</html>
