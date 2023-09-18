@@ -6,7 +6,13 @@ body {
 
 .hob3{
 	color: black;
+	background-color: #FFB401;
 	}
+	
+.hob3 + tr:nth-child(odd){
+	color: black;
+	background-color: green;
+}
 	
 .td{
 	width: 100px;
@@ -21,5 +27,63 @@ body {
 
 
 a:visited {
-	color:#ED7117
+	color:#02DC4A;
+}
+
+a {
+	color: #02DC4A;
+}
+
+.top{
+	text-transform: uppercase;
+	color: black;
+	background-color: #B70B0D;
+}
+
+em {
+	background-color: #0000AA;
+	
+}
+
+#the_most_important{
+	text-transform: uppercase;
+	background-color: gold;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-transform: uppercase;
+}
+
+h2 + #first_paragraph {
+	font-size: x-large;
+}
+
+.hob3:hover {
+	background-color: #F0F0F0;
+}
+
+nav a:first-child{
+	text-decoration: underline;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+footer a:hover {
+	cursor: pointer;
+}
+
+.input{
+	height:20px;
+}
+
+.msg{
+	height:50px;
+	width: 300px;
+	border-color: yellow;
 }
