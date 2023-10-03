@@ -1,90 +1,111 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
+<!-- MOSA ALSHAKHOURI 202016000 -->
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
+ 
 <title>Personal Blog</title>
+
 <meta name="description" content="personal blog for MOSA">
 <meta name="keywords" content="HTML,Learn, Blog">
 <meta name="Author" content="MOSA">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"
-<header><h1><em>MOSA's Personal Blog!</em></h1></header>
-<header id="the_most_important"><h2><em>Welcome to my personal blog</em></h2></header>
-<nav>
-<a href="about.html"><h3>About</h3> </a>
-<a href="contacts.html"><h3>Contacts</h3> </a>
-<a href="proposals.html"><h3>Proposals</h3> </a>
-</nav>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script>
+		window.addEventListener("load", () => {
+		
+			document.querySelector(".loader").classList.add("loader--hidden");
+		
+		});
+	</script>
 
 </head>
 
 <body>
-<header> </header>
-<body>
-<img src="images/sunset.jpg" alt="image of sunset" width="400">
-</body>
-<header><h3>Welcome to my personal blog where I post my recent achievements and projects!</h3></header>
-<section>
-<table bgcolor="black" width="700">
 
-<tr bgcolor="grey" class="top">
-<th width="50">Project</th>
-<th width="50">Rate</th>
-<th width="50">When</th>
-</tr>
+	<div class="loader"></div>
 
-<tr class="hob3" bgcolor="lightgrey" align="center">
-<td class="tdHover">Registeration system in Python</td>
-<td class="tdHover">08 / 10</td>
-<td class="tdHover">25 April 2022</td>
-</tr>
+	<section class="topRippon">
+		<nav>
+			<ul>
+				<li><a href="about.html" class="button">About </a></li>
+				<li><a href="contacts.html" class="button light">Contacts </a></li>
+				<li><a href="proposals.html" class="button dark">Proposals </a></li>
+				<li><a href="index-ar.html" class="button">العربية </a></li>
+			</ul>
+		</nav>
+	</section>
 
-<tr class="hob3" bgcolor="lightgrey" align="center">
-<td class="tdHover">Tournament Manager in Java</td>
-<td class="tdHover">09.5 / 10</td>
-<td class="tdHover">29 May 2023</td>
-</tr>
-
-<tr class="hob3" bgcolor="lightgrey" align="center">
-<td class="tdHover">Personal Blog using HTML & CSS</td>
-<td class="tdHover">10 / 10</td>
-<td class="tdHover">12 September 2023</td>
-</tr>
-
-</table>
-</section>
-<p id="first_paragraph">
-	this is my first paragraph 
-	<h2> test me </h2>
-</p>
-
-<footer>
-this is the end of the page. Navigate to the top to discover more
-
-<a href="contacts.html"> test link </a>
-
-<table>
-
-	<tr>
-		<td class="td"><a href="about.html"><h3>About</h3> </a></td>
-		<td class="td"><a href="contacts.html"><h3>Contacts</h3> </a></td>
-		<td class="td"><a href="proposals.html"><h3>Proposals</h3> </a></td>
-	</tr>
+	<header><h1><em>MOSA's Personal Blog <br> Welcome everyone!</em></h1></header>
 	
-	<tr>
-		<td class="td2"><h5>phone: 056xxxxxxx</h5></td>
-	</tr>
+	<p>
+		This is a side project for the course SWE363.<br>
+		It's a personal blog where I post my recent achievements and projects!
+	</p>
 	
-	<tr>
-		<td class="td2"><h5>email: placeholderemail@gmail.com</h5></td>
-	</tr>
-		
-	<tr>
-		<td class="td2"><h5>2023-2024 all rights reserved</h5></td>
-	</tr>
-	
-</table>
+	<img src="images/sunset.jpg" alt="image of sunset" width="400">
 
-</footer>
+	<section>
+		<table bgcolor="black" width="700">
+
+		<tr bgcolor="grey" class="top">
+		<th width="50">Project</th>
+		<th width="50">Rate</th>
+		<th width="50">When</th>
+		</tr>
+
+		<tr class="hob3" bgcolor="lightgrey" align="center">
+		<td class="tdHover">Registeration system in Python</td>
+		<td class="tdHover">08 / 10</td>
+		<td class="tdHover">25 April 2022</td>
+		</tr>
+
+		<tr class="hob3" bgcolor="lightgrey" align="center">
+		<td class="tdHover">Tournament Manager in Java</td>
+		<td class="tdHover">09.5 / 10</td>
+		<td class="tdHover">29 May 2023</td>
+		</tr>
+
+		<tr class="hob3" bgcolor="lightgrey" align="center">
+		<td class="tdHover">Personal Blog using HTML & CSS</td>
+		<td class="tdHover">10 / 10</td>
+		<td class="tdHover">12 September 2023</td>
+		</tr>
+
+		</table>
+	</section>
+	
+	<p id="first_paragraph">
+		this is my first paragraph 
+		<h2> test me </h2>
+	</p>
+
+	<footer>
+	this is the end of the page. Navigate to the top to discover more
+
+	<button class="hover-btn">
+		<a href="contacts.html"> test link </a>
+	</button>
+	<ul>
+		<li><a href="about.html" class="button">About </a></li>
+		<li><a href="contacts.html" class="button light">Contacts </a></li>
+		<li><a href="proposals.html" class="button dark">Proposals </a></li>
+	</ul>
+	
+	<p>
+		phone: 056xxxxxxx<br>
+		email: placeholderemail@gmail.com<br>
+		2023-2024 all rights reserved<br>
+	</p>
+
+	</footer>
 
 </body>
 
