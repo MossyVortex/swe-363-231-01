@@ -47,6 +47,28 @@
 	
 }
 
+.watermark{
+	
+	z-index: 2;
+	position: relative;
+	
+}
+
+.watermark-text {
+	
+	position: absolute;
+	z-index: 1;
+	align-items: center;
+	top: 10px;
+	left: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+
 
 body {
 	margin: 0;

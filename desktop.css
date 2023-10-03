@@ -1,0 +1,9 @@
+@import url("desktop.css") screen and (min-width: 769px);
+
+body {
+	margin: 5%;
+	font-family: "Poppins", "sans-serif";
+	background: #17141F;
+	color: #F2F2F2;
+	
+}
