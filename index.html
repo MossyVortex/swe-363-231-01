@@ -28,9 +28,20 @@
 	<section class="topRippon">
 		<nav>
 			<ul>
-				<li><a href="about.html" class="button">About </a></li>
+				<li><a href="about.html" class="button">About</a></li>
 				<li><a href="contacts.html" class="button light">Contacts </a></li>
 				<li><a href="proposals.html" class="button dark">Proposals </a></li>
+				
+				<button id="helpButton" onclick="showPopup()">Help?</button>
+				
+				<div id="popupContainer">
+					<div id="popupContent">
+						Keyboard navigation: Use up arrow to go up and down arrow to go down. you can click Tab to select an element and press it again to go to the next one. Click Shift+Tab together to go to the previous element. To click on a button using the keyboard click Enter.
+						<button id="closeButton" onclick="closePopup()">close</button>
+					</div>
+				</div>
+				
+				
 				<li><a href="index-ar.html" class="button">العربية </a></li>
 			</ul>
 		</nav>
@@ -103,13 +114,7 @@
 
 	</footer>
 	
-	<script>
-		window.addEventListener("load", () => {
-		
-			document.querySelector(".loader").classList.add("loader--hidden");
-		
-		});
-	</script>
+	<script src="script.js"></script>
 
 </body>
 
