@@ -54,6 +54,12 @@
 		It's a personal blog where I post my recent achievements and projects!
 	</p>
 	
+	<div>
+		<button id="memeBTN" class="memeBTN">fetch</button><br><br>
+	</div>
+	<div id='outputDIV'>
+		
+	</div>
 	
 	<div class="watermark">
 		<img class="images" src="images/sunset.jpg" alt="image of sunset" width="400">
@@ -113,6 +119,22 @@
 	</p>
 
 	</footer>
+	
+	<script>
+		
+		document.getElementById('memeBTN').addEventListener('click', getMeme);
+		
+		function getMeme(){
+			fetch('https://api.imgflip.com/get_memes')
+			.then(function(res){return res.json()})
+			.then(function(data){
+				let output = 'Enjoy: ';
+				const memeGenerator = function(data){console.log(data.url)};
+				document.getElementById('outputDIV').innerHTML = data;
+			})
+			.catch((err) => console.log(err))
+		}
+	</script>
 	
 	<script src="script.js"></script>
 
